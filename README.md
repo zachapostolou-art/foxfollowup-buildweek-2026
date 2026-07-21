@@ -49,3 +49,21 @@ This repository documents the Build Week prototype. FoxFollowUp is currently an 
 ## Safety notice
 
 FoxFollowUp is not intended for emergencies, diagnosis or replacement of medical care. In an emergency, users must contact the appropriate emergency medical services.
+
+## Run locally
+
+Requirements: Node.js 20 or later.
+
+```bash
+npm install
+npm run dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000).
+
+To verify the production build:
+
+```bash
+npm run build
+npm start
+```
